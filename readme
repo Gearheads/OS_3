@@ -1,0 +1,4 @@
+Rob Casale, Mariam Tsilosani, Richard McEwan, Victor Kaiser-Pendergast, Lucas Rivera
+Yes, we did the optional part.
+We edited the files that were laid out in the assignment description such that we could have the two new system calls. For the trace system call we added an if statement to check if the trace is active in the syscall function and will increment a counter everytime there is a system call. For the csinfo system call we added another counter to the process control block structure and added an increment statement to the scheduler function such that everytime there is a context switch the counter will increment.
+We tested our work by creating a try.c file that has a test case for the trace system call and then for the csinfo system call uses the same test case that is presented in the assignment description.
